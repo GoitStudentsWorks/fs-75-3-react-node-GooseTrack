@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Provider store={store}>
             <PersistGate loading={null} persistor={persistor}>
                 <ThemeProvider>
-                    <BrowserRouter basename="/GooseTrack">
+                    <BrowserRouter basename="/fs-75-2-react-node-GooseTrack/">
                         <App />
                     </BrowserRouter>
                 </ThemeProvider>
